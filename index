@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Home - CustomsPoint, Inc.</title>
+    <script src="https://kit.fontawesome.com/0d565fb878.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>CustomsPoint, Inc.</h1>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <div class="main-content">
+            <div class="banner">
+                <div class="content-container">
+                    <p>Welcome to CustomsPoint, Inc.<br />Get to know the key benefits & unique advantages of using our software by scheduling an online demonstration of our Import Export Management Compliance web based application.<br />Email us at <a href="mailto:info@customspoint.com">info@customspoint.com</a>.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>        
+        <div class="copyright">
+            <p>&copy;<script>document.write(new Date().getFullYear());</script> - CustomsPoint, Inc.</p>
+        </div>
+    </footer>
+</body>
+</html>
