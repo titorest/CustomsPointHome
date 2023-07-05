@@ -11,7 +11,7 @@ html {
 
 body {
     background: -webkit-linear-gradient(180deg, indigo 0%, #234470 37.25%, midnightblue 100%);
-    margin: 1% 7.5%;
+    margin: .5% 7.5%;
 }
 
 .container {
@@ -56,7 +56,7 @@ h1 {
 }
 
 .banner {
-    height: 86vh;
+    height: 88vh;
     background: url('./banner-3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -131,6 +131,12 @@ footer {
 @media only screen and (max-width: 340px) {
     html {
         font-size: 7px;
+    }
+}
+
+@media only screen and (max-height: 950px) {
+    .banner {
+        height: 85vh;
     }
 }
 
