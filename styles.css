@@ -104,14 +104,13 @@ footer {
 }
 
 .copyright {
-    display: block;
+    font-size: 1rem;
+    text-align: left;
+    margin-bottom: 0.5%;
 }
 
     .copyright p {
-        font-size: 1rem;
-        text-align: left;
-        margin-bottom: 0.5%;
-        margin-top: 0;
+        margin-top: 0.5rem;
     }
 
 
@@ -129,20 +128,14 @@ footer {
     }
 }
 
-@media only screen and (max-height: 1000px) {
-    .banner {
-        height: 84vh;
+@media only screen and (max-width: 340px) {
+    html {
+        font-size: 7px;
     }
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 820px) {
     .banner {
         height: 80vh;
-    }
-}
-
-@media only screen and (max-height: 675px) {
-    .banner {
-        height: 78vh;
     }
 }
